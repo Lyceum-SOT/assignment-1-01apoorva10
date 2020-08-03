@@ -1,4 +1,0 @@
-#!/bin/sh
-
-echo "Hi! I'm $(whoami) and today is $(date)" > problem_1.txt
-
