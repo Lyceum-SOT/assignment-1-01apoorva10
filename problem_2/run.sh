@@ -1,3 +1,3 @@
 #!/bin/sh
-curl https://wttr.in > problem_2.txt
-grep -B 1 -A 9 "Sat 25" problem_2.txt
+curl https://wttr.in > wttr.txt
+grep -B 1 -A 9 "Sat 25" wttr.txt > problem_2.txt
